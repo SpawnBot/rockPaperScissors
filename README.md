@@ -1,2 +1,2 @@
 # rockPaperScissors
-Rock Paper Scissors Project for The Odin Project. It currently only runs in the console.
+A simple game of Rock Paper Scissors. Made for The Odin Project.
