@@ -17,7 +17,7 @@ let message = '';
 // Play for 5 rounds OR until playerScore !== computerScore
 rockBtn.addEventListener('click', function() {
     if (round <= 5 || playerScore === computerScore) {
-        playRound('scissors', computerPlay());
+        playRound('rock', computerPlay());
     }
 });
 
