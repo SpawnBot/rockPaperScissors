@@ -1,51 +1,59 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 body {
-    background-color: #24272E;
+  background-color: #24272e;
 }
-header{
-    background-color: white;
-    padding: 20px;
-    text-align: center;
+header {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
 }
-#play-btns{
-    padding: 20px 20px 5px;
-    text-align: center;
+#play-btns {
+  padding: 20px 20px 5px;
+  text-align: center;
 }
 
-#rock-btn, #paper-btn, #scissors-btn {
-    background: white;
-    padding: 20px 30px;
-    border-radius: 20px;
-    font-size: 15px;
+#rock-btn,
+#paper-btn,
+#scissors-btn {
+  background: white;
+  padding: 20px 30px;
+  border-radius: 20px;
+  font-size: 15px;
+  border: none;
 }
 
 #pick {
-    padding-bottom: 15px;
+  padding-bottom: 15px;
 }
 
-#pick, #scoreboard, #result{
-    color: white;
-    text-align: center;
+#pick,
+#scoreboard,
+#result {
+  color: white;
+  text-align: center;
 }
 
 #final-message {
-    padding: 20px;
-    font-weight: bold;
-    font-size: 1.1em;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 1.1em;
 }
 
-#rock-btn:hover, #paper-btn:hover, #scissors-btn:hover {
-    cursor: pointer;
-    background: #24272E;
-    color: white;
-    box-shadow: 1px 1px 3px white;
+#rock-btn:hover,
+#paper-btn:hover,
+#scissors-btn:hover {
+  cursor: pointer;
+  background: #24272e;
+  color: white;
+  box-shadow: 1px 1px 3px white;
 }
 
-#rock-btn:focus, #paper-btn:focus, #scissors-btn:focus {
-    outline: 0;
+#rock-btn:focus,
+#paper-btn:focus,
+#scissors-btn:focus {
+  outline: 0;
 }
-
